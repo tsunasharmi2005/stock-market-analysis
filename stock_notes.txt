@@ -1,0 +1,39 @@
+Stock Market Data Analysis - Project Notes
+
+Naan TCS, Infosys, Reliance nu 3 Indian companies oda stock data eduthu analyse panen.
+Dataset: Yahoo Finance la irundhu yfinance Python library moolama eduthen (last 2 years data).
+
+Enna data use panen:
+- Date
+- Stock name
+- Close price
+- Volume
+
+Data va epadi clean panen:
+- Mukkiyamana 4 columns mattum eduthen
+- Date la irundhu timezone remove panen
+- Missing values remove panen
+- Clean data va stock_clean.csv ah save panen
+
+Naan add panna new columns:
+- MA50 (50 naal moving average)
+- MA200 (200 naal moving average)
+- Return (daily price maatram %)
+- Volatility (30 naal la price evlo aadudhu)
+
+Enna tools use panen:
+Python, Pandas, Matplotlib, Seaborn, yfinance
+
+Enna charts panen:
+1. Price trend (3 stocks compare panni line chart)
+2. Moving averages (TCS: Close, 50-day, 200-day)
+3. Volatility (3 stocks compare panni line chart)
+
+Kidaitha result:
+3 charts create panen, png file ah save aagiduchu.
+Output files: stock_price.png, stock_moving_avg.png, stock_volatility.png, stock_clean.csv
+
+Idhula naan kathukitten:
+- Moving average vachu price trend epadi paakradhu
+- Volatility na enna, evlo risk irukku nu epadi kandupidikkradhu
+- Internet la irundhu Python moolama data epadi edukkradhu
